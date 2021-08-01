@@ -13,9 +13,9 @@ class MainActivity : AppCompatActivity() {
         const val ACTION_SEND_MSG = "ru.geekbrains.broadcastsender.message"
         // Имя передаваемого параметра
         const val NAME_MSG = "MSG"
-        // Эта константа спрятана в Intent классе,
-        // Но, именно посредством её можно поднять приложение
     }
+    // Эта константа спрятана в Intent классе,
+    // Но, именно посредством её можно поднять приложение
     val FLAG_RECEIVER_INCLUDE_BACKGROUND = 0x01000000
 
     override fun onCreate(savedInstanceState: Bundle?) {
